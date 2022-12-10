@@ -147,8 +147,8 @@ class _ProductsPageState extends State<ProductsPage> {
         leading: CircleAvatar(
           child: Text('${product.stocks}'),
         ),
-        title: Text(product.name),
-        subtitle: Text(product.price),
+        title: Text('Name ${product.name}'),
+        subtitle: Text('Price : ${product.price}'),
         trailing: IconButton(
           onPressed: () {
             FirebaseFirestore.instance
