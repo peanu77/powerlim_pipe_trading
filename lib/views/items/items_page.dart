@@ -14,7 +14,7 @@ class _ItemsPageState extends State<ItemsPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text('NAV SHIT'),
+        child: Text('Item List Page'),
       ),
     );
   }
